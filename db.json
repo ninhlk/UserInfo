@@ -1,5 +1,13 @@
 {
+  "user": [
+  {
   "name": "John Doe",
   "age": 30,
   "city": "New York"
+  },
+  {
+  "name": "Ninh LK",
+  "age": 35,
+  "city": "Ha Noi"
+  }    
 }
