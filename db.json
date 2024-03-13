@@ -1,14 +1,14 @@
 [
   {
-  "userID": 1,
-  "userName": "ninhlk",
+  "user_id": 1,
+  "user_name": "ninhlk",
   "name": "Ninh Le",
   "age": 30,
   "city": "New York"
   },
   {
-  "userID": 2,
-  "userName": "toannt",
+  "user_id": 2,
+  "user_name": "toannt",
   "name": "Toan Nguyen",
   "age": 35,
   "city": "Ha Noi"
