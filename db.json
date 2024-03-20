@@ -13,6 +13,22 @@
   "age": 35,
   "city": "Ha Noi"
   }
+  ],
+  "metadata": [
+    {
+            "name": "Anh Em Mario Siêu Phàm",
+            "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
+            "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
+            "genre": ["Giải Trí", "Gia Đình"],
+            "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+        },
+        {
+            "name": "Giới Siêu Giàu Châu Á",
+            "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
+            "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
+            "genre": ["Gia Đình", "Tình Cảm"],
+            "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+        }
   ]
 }
 
