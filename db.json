@@ -1,45 +1,840 @@
-{ "user": [
-  {
-  "user_id": 1,
-  "user_name": "ninhlk",
-  "name": "Ninh Le",
-  "age": 30,
-  "city": "New York"
-  },
-  {
-  "user_id": 2,
-  "user_name": "toannt",
-  "name": "Toan Nguyen",
-  "age": 35,
-  "city": "Ha Noi"
-  }
-  ],
-  "metadata": [
-    {      "asset_id": "a1",
-            "name": "Anh Em Mario Siêu Phàm",
-            "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
-            "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
-            "genre": ["Giải Trí", "Gia Đình"],
-            "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+{
+    "user":
+    [
+        {
+            "user_id": 1,
+            "user_name": "ninhlk",
+            "name": "Ninh Le",
+            "age": 30,
+            "city": "New York"
         },
-        {    "asset_id": "a2",
-            "name": "Giới Siêu Giàu Châu Á",
-            "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
-            "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
-            "genre": ["Gia Đình", "Tình Cảm"],
-            "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+        {
+            "user_id": 2,
+            "user_name": "toannt",
+            "name": "Toan Nguyen",
+            "age": 35,
+            "city": "Ha Noi"
         }
-  ],
-      "category": [
+    ],
+    "metadata":
+    [
         {
-            "Giải Trí": ["a1"]
+            "category": "Hành Động",
+            "list_movies":
+            [
+                {
+                    "asset_id": "a1",
+                    "name": "Anh Em Mario Siêu Phàm",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+                },
+                {
+                    "asset_id": "a2",
+                    "name": "Giới Siêu Giàu Châu Á",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+                },
+                {
+                    "asset_id": "a3",
+                    "name": "Shazam",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040442H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040442H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/o7WMCPs05-A"
+                },
+                {
+                    "asset_id": "a4",
+                    "name": "Cá Mập Cổ Đại",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022781L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022781L1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/pAK70RwbEQ4"
+                },
+                {
+                    "asset_id": "a5",
+                    "name": "Cú Ngã",
+                    "imageP": "https://images.msky.vn/images/hbo/films/039467H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/039467H1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/WwduY77YYJ8"
+                },
+                {
+                    "asset_id": "a6",
+                    "name": "The Flash",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040975H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040975H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/emO7N5oOJ3M"
+                },
+                {
+                    "asset_id": "a7",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a8",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a9",
+                    "name": "Ngôi Sao Mới Rạng",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022895L2-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022895L2-landscape.jpg",
+                    "genre": "Tình Cảm",
+                    "urlStr": "https://www.youtube.com/embed/YLzxmoeuKzE"
+                },
+                {
+                    "asset_id": "a10",
+                    "name": "Người Máy Biến Hình: Quái Thú Trỗi Dậy",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041163H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041163H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/MKEsYJ1k6mQ"
+                },
+                {
+                    "asset_id": "a11",
+                    "name": "Chú Gấu Ted - Phần 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/019460L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/019460L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/_WIUoTymvTQ"
+                },
+                {
+                    "asset_id": "a12",
+                    "name": "Thông Minh Lên",
+                    "imageP": "https://images.msky.vn/images/hbo/films/009427HS-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/009427HS-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/QkM_0uAMgRI"
+                }
+            ]
         },
         {
-         "Gia Đình": ["a1", "a2"]
+            "category": "Kinh Dị",
+            "list_movies":
+            [
+                {
+                    "asset_id": "a2",
+                    "name": "Giới Siêu Giàu Châu Á",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+                },
+                {
+                    "asset_id": "a1",
+                    "name": "Anh Em Mario Siêu Phàm",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+                },
+                {
+                    "asset_id": "a3",
+                    "name": "Shazam",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040442H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040442H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/o7WMCPs05-A"
+                },
+                {
+                    "asset_id": "a4",
+                    "name": "Cá Mập Cổ Đại",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022781L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022781L1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/pAK70RwbEQ4"
+                },
+                {
+                    "asset_id": "a5",
+                    "name": "Cú Ngã",
+                    "imageP": "https://images.msky.vn/images/hbo/films/039467H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/039467H1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/WwduY77YYJ8"
+                },
+                {
+                    "asset_id": "a6",
+                    "name": "The Flash",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040975H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040975H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/emO7N5oOJ3M"
+                },
+                {
+                    "asset_id": "a7",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a8",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a9",
+                    "name": "Ngôi Sao Mới Rạng",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022895L2-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022895L2-landscape.jpg",
+                    "genre": "Tình Cảm",
+                    "urlStr": "https://www.youtube.com/embed/YLzxmoeuKzE"
+                },
+                {
+                    "asset_id": "a10",
+                    "name": "Người Máy Biến Hình: Quái Thú Trỗi Dậy",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041163H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041163H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/MKEsYJ1k6mQ"
+                },
+                {
+                    "asset_id": "a11",
+                    "name": "Chú Gấu Ted - Phần 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/019460L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/019460L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/_WIUoTymvTQ"
+                },
+                {
+                    "asset_id": "a12",
+                    "name": "Thông Minh Lên",
+                    "imageP": "https://images.msky.vn/images/hbo/films/009427HS-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/009427HS-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/QkM_0uAMgRI"
+                }
+            ]
         },
         {
-            "Tình Cảm": ["a2"]
+            "category": "Mạo Hiểm",
+            "list_movies":
+            [
+                {
+                    "asset_id": "a3",
+                    "name": "Shazam",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040442H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040442H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/o7WMCPs05-A"
+                },
+                {
+                    "asset_id": "a1",
+                    "name": "Anh Em Mario Siêu Phàm",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+                },
+                {
+                    "asset_id": "a2",
+                    "name": "Giới Siêu Giàu Châu Á",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+                },
+                {
+                    "asset_id": "a4",
+                    "name": "Cá Mập Cổ Đại",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022781L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022781L1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/pAK70RwbEQ4"
+                },
+                {
+                    "asset_id": "a5",
+                    "name": "Cú Ngã",
+                    "imageP": "https://images.msky.vn/images/hbo/films/039467H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/039467H1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/WwduY77YYJ8"
+                },
+                {
+                    "asset_id": "a6",
+                    "name": "The Flash",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040975H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040975H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/emO7N5oOJ3M"
+                },
+                {
+                    "asset_id": "a7",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a8",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a9",
+                    "name": "Ngôi Sao Mới Rạng",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022895L2-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022895L2-landscape.jpg",
+                    "genre": "Tình Cảm",
+                    "urlStr": "https://www.youtube.com/embed/YLzxmoeuKzE"
+                },
+                {
+                    "asset_id": "a10",
+                    "name": "Người Máy Biến Hình: Quái Thú Trỗi Dậy",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041163H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041163H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/MKEsYJ1k6mQ"
+                },
+                {
+                    "asset_id": "a11",
+                    "name": "Chú Gấu Ted - Phần 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/019460L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/019460L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/_WIUoTymvTQ"
+                },
+                {
+                    "asset_id": "a12",
+                    "name": "Thông Minh Lên",
+                    "imageP": "https://images.msky.vn/images/hbo/films/009427HS-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/009427HS-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/QkM_0uAMgRI"
+                }
+            ]
+        },
+        {
+            "category": "Khoa Giáo",
+            "list_movies":
+            [
+                {
+                    "asset_id": "a4",
+                    "name": "Cá Mập Cổ Đại",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022781L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022781L1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/pAK70RwbEQ4"
+                },
+                {
+                    "asset_id": "a1",
+                    "name": "Anh Em Mario Siêu Phàm",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+                },
+                {
+                    "asset_id": "a2",
+                    "name": "Giới Siêu Giàu Châu Á",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+                },
+                {
+                    "asset_id": "a3",
+                    "name": "Shazam",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040442H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040442H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/o7WMCPs05-A"
+                },
+                {
+                    "asset_id": "a5",
+                    "name": "Cú Ngã",
+                    "imageP": "https://images.msky.vn/images/hbo/films/039467H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/039467H1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/WwduY77YYJ8"
+                },
+                {
+                    "asset_id": "a6",
+                    "name": "The Flash",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040975H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040975H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/emO7N5oOJ3M"
+                },
+                {
+                    "asset_id": "a7",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a8",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a9",
+                    "name": "Ngôi Sao Mới Rạng",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022895L2-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022895L2-landscape.jpg",
+                    "genre": "Tình Cảm",
+                    "urlStr": "https://www.youtube.com/embed/YLzxmoeuKzE"
+                },
+                {
+                    "asset_id": "a10",
+                    "name": "Người Máy Biến Hình: Quái Thú Trỗi Dậy",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041163H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041163H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/MKEsYJ1k6mQ"
+                },
+                {
+                    "asset_id": "a11",
+                    "name": "Chú Gấu Ted - Phần 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/019460L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/019460L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/_WIUoTymvTQ"
+                },
+                {
+                    "asset_id": "a12",
+                    "name": "Thông Minh Lên",
+                    "imageP": "https://images.msky.vn/images/hbo/films/009427HS-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/009427HS-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/QkM_0uAMgRI"
+                }
+            ]
+        },
+        {
+            "category": "Giải Trí",
+            "list_movies":
+            [
+                {
+                    "asset_id": "a5",
+                    "name": "Cú Ngã",
+                    "imageP": "https://images.msky.vn/images/hbo/films/039467H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/039467H1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/WwduY77YYJ8"
+                },
+                {
+                    "asset_id": "a1",
+                    "name": "Anh Em Mario Siêu Phàm",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+                },
+                {
+                    "asset_id": "a2",
+                    "name": "Giới Siêu Giàu Châu Á",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+                },
+                {
+                    "asset_id": "a3",
+                    "name": "Shazam",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040442H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040442H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/o7WMCPs05-A"
+                },
+                {
+                    "asset_id": "a4",
+                    "name": "Cá Mập Cổ Đại",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022781L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022781L1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/pAK70RwbEQ4"
+                },
+                {
+                    "asset_id": "a6",
+                    "name": "The Flash",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040975H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040975H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/emO7N5oOJ3M"
+                },
+                {
+                    "asset_id": "a7",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a8",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a9",
+                    "name": "Ngôi Sao Mới Rạng",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022895L2-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022895L2-landscape.jpg",
+                    "genre": "Tình Cảm",
+                    "urlStr": "https://www.youtube.com/embed/YLzxmoeuKzE"
+                },
+                {
+                    "asset_id": "a10",
+                    "name": "Người Máy Biến Hình: Quái Thú Trỗi Dậy",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041163H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041163H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/MKEsYJ1k6mQ"
+                },
+                {
+                    "asset_id": "a11",
+                    "name": "Chú Gấu Ted - Phần 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/019460L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/019460L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/_WIUoTymvTQ"
+                },
+                {
+                    "asset_id": "a12",
+                    "name": "Thông Minh Lên",
+                    "imageP": "https://images.msky.vn/images/hbo/films/009427HS-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/009427HS-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/QkM_0uAMgRI"
+                }
+            ]
+        },
+        {
+            "category": "Tình Cảm",
+            "list_movies":
+            [
+                {
+                    "asset_id": "a6",
+                    "name": "The Flash",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040975H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040975H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/emO7N5oOJ3M"
+                },
+                {
+                    "asset_id": "a1",
+                    "name": "Anh Em Mario Siêu Phàm",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+                },
+                {
+                    "asset_id": "a2",
+                    "name": "Giới Siêu Giàu Châu Á",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+                },
+                {
+                    "asset_id": "a3",
+                    "name": "Shazam",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040442H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040442H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/o7WMCPs05-A"
+                },
+                {
+                    "asset_id": "a4",
+                    "name": "Cá Mập Cổ Đại",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022781L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022781L1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/pAK70RwbEQ4"
+                },
+                {
+                    "asset_id": "a5",
+                    "name": "Cú Ngã",
+                    "imageP": "https://images.msky.vn/images/hbo/films/039467H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/039467H1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/WwduY77YYJ8"
+                },
+
+                {
+                    "asset_id": "a7",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a8",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a9",
+                    "name": "Ngôi Sao Mới Rạng",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022895L2-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022895L2-landscape.jpg",
+                    "genre": "Tình Cảm",
+                    "urlStr": "https://www.youtube.com/embed/YLzxmoeuKzE"
+                },
+                {
+                    "asset_id": "a10",
+                    "name": "Người Máy Biến Hình: Quái Thú Trỗi Dậy",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041163H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041163H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/MKEsYJ1k6mQ"
+                },
+                {
+                    "asset_id": "a11",
+                    "name": "Chú Gấu Ted - Phần 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/019460L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/019460L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/_WIUoTymvTQ"
+                },
+                {
+                    "asset_id": "a12",
+                    "name": "Thông Minh Lên",
+                    "imageP": "https://images.msky.vn/images/hbo/films/009427HS-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/009427HS-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/QkM_0uAMgRI"
+                }
+            ]
+        },
+        {
+            "category": "Văn Hóa",
+            "list_movies":
+            [
+                {
+                    "asset_id": "a7",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a1",
+                    "name": "Anh Em Mario Siêu Phàm",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+                },
+                {
+                    "asset_id": "a2",
+                    "name": "Giới Siêu Giàu Châu Á",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+                },
+                {
+                    "asset_id": "a3",
+                    "name": "Shazam",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040442H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040442H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/o7WMCPs05-A"
+                },
+                {
+                    "asset_id": "a4",
+                    "name": "Cá Mập Cổ Đại",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022781L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022781L1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/pAK70RwbEQ4"
+                },
+                {
+                    "asset_id": "a5",
+                    "name": "Cú Ngã",
+                    "imageP": "https://images.msky.vn/images/hbo/films/039467H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/039467H1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/WwduY77YYJ8"
+                },
+                {
+                    "asset_id": "a6",
+                    "name": "The Flash",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040975H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040975H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/emO7N5oOJ3M"
+                },
+                {
+                    "asset_id": "a8",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a9",
+                    "name": "Ngôi Sao Mới Rạng",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022895L2-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022895L2-landscape.jpg",
+                    "genre": "Tình Cảm",
+                    "urlStr": "https://www.youtube.com/embed/YLzxmoeuKzE"
+                },
+                {
+                    "asset_id": "a10",
+                    "name": "Người Máy Biến Hình: Quái Thú Trỗi Dậy",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041163H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041163H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/MKEsYJ1k6mQ"
+                },
+                {
+                    "asset_id": "a11",
+                    "name": "Chú Gấu Ted - Phần 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/019460L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/019460L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/_WIUoTymvTQ"
+                },
+                {
+                    "asset_id": "a12",
+                    "name": "Thông Minh Lên",
+                    "imageP": "https://images.msky.vn/images/hbo/films/009427HS-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/009427HS-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/QkM_0uAMgRI"
+                }
+            ]
+        },
+        {
+            "category": "Gia Đình",
+            "list_movies":
+            [
+                {
+                    "asset_id": "a12",
+                    "name": "Thông Minh Lên",
+                    "imageP": "https://images.msky.vn/images/hbo/films/009427HS-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/009427HS-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/QkM_0uAMgRI"
+                },
+                {
+                    "asset_id": "a1",
+                    "name": "Anh Em Mario Siêu Phàm",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041229H0-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041229H0-landscape.jpg",
+                    "genre": "Giải Trí",
+                    "urlStr": "https://www.youtube.com/embed/q5-6LtaAazo"
+                },
+                {
+                    "asset_id": "a2",
+                    "name": "Giới Siêu Giàu Châu Á",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022759L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022759L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/DbXDAXsOZ9o"
+                },
+                {
+                    "asset_id": "a3",
+                    "name": "Shazam",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040442H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040442H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/o7WMCPs05-A"
+                },
+                {
+                    "asset_id": "a4",
+                    "name": "Cá Mập Cổ Đại",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022781L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022781L1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/pAK70RwbEQ4"
+                },
+                {
+                    "asset_id": "a5",
+                    "name": "Cú Ngã",
+                    "imageP": "https://images.msky.vn/images/hbo/films/039467H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/039467H1-landscape.jpg",
+                    "genre": "Mạo Hiểm",
+                    "urlStr": "https://www.youtube.com/embed/WwduY77YYJ8"
+                },
+                {
+                    "asset_id": "a6",
+                    "name": "The Flash",
+                    "imageP": "https://images.msky.vn/images/hbo/films/040975H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/040975H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/emO7N5oOJ3M"
+                },
+                {
+                    "asset_id": "a7",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a8",
+                    "name": "Gã Hề Ma Quái: Chương 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/023714A1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/023714A1-landscape.jpg",
+                    "genre": "Kinh Dị",
+                    "urlStr": "https://www.youtube.com/embed/BSkTj-R_vJk"
+                },
+                {
+                    "asset_id": "a9",
+                    "name": "Ngôi Sao Mới Rạng",
+                    "imageP": "https://images.msky.vn/images/hbo/films/022895L2-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/022895L2-landscape.jpg",
+                    "genre": "Tình Cảm",
+                    "urlStr": "https://www.youtube.com/embed/YLzxmoeuKzE"
+                },
+                {
+                    "asset_id": "a10",
+                    "name": "Người Máy Biến Hình: Quái Thú Trỗi Dậy",
+                    "imageP": "https://images.msky.vn/images/hbo/films/041163H1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/041163H1-landscape.jpg",
+                    "genre": "Hành Động",
+                    "urlStr": "https://www.youtube.com/embed/MKEsYJ1k6mQ"
+                },
+                {
+                    "asset_id": "a11",
+                    "name": "Chú Gấu Ted - Phần 2",
+                    "imageP": "https://images.msky.vn/images/hbo/films/019460L1-portrait.jpg",
+                    "imageL": "https://images.msky.vn/images/hbo/films/019460L1-landscape.jpg",
+                    "genre": "Gia Đình",
+                    "urlStr": "https://www.youtube.com/embed/_WIUoTymvTQ"
+                }
+            ]
         }
     ]
+    
 }
-
